@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CGRA_PROJECT_a4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\ext\;CMake Files\ext\glfw\;CMake Files\ext\glfw\src\;CMake Files\ext\glfw\docs\;CMake Files\ext\glew-1.10.0\;CMake Files\ext\stb\;CMake Files\ext\imgui\;CMake Files\ext\glm\;CMake Files\src\;CMake Files\src\cgra\;CMake Files\src\scene\;CMake Files\res\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glew-1.10.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stb">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libstb.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/stb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 stb"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stb/fast">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libstb.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/stb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 stb/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/stb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glm_dummy">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/glm_dummy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/.."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 glm_dummy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glm_dummy/fast">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/glm_dummy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/.."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 glm_dummy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a4">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/a4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGRA_WORKDIR=&quot;/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 a4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a4/fast">
+				<Option output="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin/a4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGRA_WORKDIR=&quot;/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/&quot;"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb"/>
+					<Add directory="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 a4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="res">
+				<Option working_dir="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/res"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/res/Makefile&quot;  VERBOSE=1 res"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/res/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/res/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gray/Documents/UNI/CGRA\ 251/3D_Raytracing/cmake-build-debug/res/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake-build-debug/ext/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include/GL/glew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include/GL/glxew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/include/GL/wglew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/src/glew.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/iokit_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/iokit_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/mach_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/common.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/_features.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/_fixes.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/_noise.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/_swizzle.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/_swizzle_func.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/_vectorize.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/compute_vector_relational.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/dummy.cpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_common.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_common.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_common_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_exponential.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_exponential.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_exponential_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_geometric.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_geometric.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_geometric_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_integer.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_integer.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_integer_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_matrix.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_matrix.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_matrix_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_packing.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_packing.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_packing_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_trigonometric.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_trigonometric.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_trigonometric_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_vector_relational.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_vector_relational.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/func_vector_relational_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/glm.cpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/precision.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/setup.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_float.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_gentype.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_gentype.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_half.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_half.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_int.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat2x2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat2x2.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat2x3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat2x3.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat2x4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat2x4.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat3x2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat3x2.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat3x3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat3x3.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat3x4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat3x4.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x2.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x3.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x4.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_mat4x4_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec1.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec1.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec2.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec3.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec4.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/detail/type_vec4_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/exponential.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/ext.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/fwd.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/geometric.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/glm.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/bitfield.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/bitfield.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/color_space.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/color_space.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/constants.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/constants.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/epsilon.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/epsilon.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/functions.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/functions.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/integer.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/integer.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_access.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_access.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_integer.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_inverse.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_inverse.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_transform.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/matrix_transform.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/noise.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/noise.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/packing.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/packing.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/quaternion.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/quaternion.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/quaternion_simd.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/random.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/random.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/reciprocal.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/reciprocal.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/round.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/round.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/type_aligned.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/type_precision.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/type_precision.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/type_ptr.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/type_ptr.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/ulp.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/ulp.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/vec1.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtc/vec1.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/associated_min_max.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/associated_min_max.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/bit.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/bit.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/closest_point.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/closest_point.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/color_encoding.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/color_encoding.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/color_space.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/color_space.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/color_space_YCoCg.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/color_space_YCoCg.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/common.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/common.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/compatibility.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/compatibility.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/component_wise.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/component_wise.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/dual_quaternion.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/dual_quaternion.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/euler_angles.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/euler_angles.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/extend.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/extend.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/extended_min_max.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/extended_min_max.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/exterior_product.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/exterior_product.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/fast_exponential.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/fast_exponential.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/fast_square_root.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/fast_square_root.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/fast_trigonometry.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/fast_trigonometry.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/float_notmalize.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/gradient_paint.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/gradient_paint.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/handed_coordinate_space.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/handed_coordinate_space.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/hash.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/hash.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/integer.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/integer.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/intersect.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/intersect.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/io.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/io.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/log_base.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/log_base.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_cross_product.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_cross_product.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_decompose.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_decompose.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_factorisation.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_factorisation.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_interpolation.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_interpolation.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_major_storage.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_major_storage.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_operation.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_operation.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_query.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_query.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_transform_2d.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/matrix_transform_2d.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/mixed_product.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/mixed_product.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/norm.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/norm.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/normal.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/normal.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/normalize_dot.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/normalize_dot.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/number_precision.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/number_precision.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/optimum_pow.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/optimum_pow.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/orthonormalize.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/orthonormalize.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/perpendicular.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/perpendicular.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/polar_coordinates.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/polar_coordinates.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/projection.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/projection.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/quaternion.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/quaternion.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/range.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/raw_data.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/raw_data.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/rotate_normalized_axis.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/rotate_normalized_axis.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/rotate_vector.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/rotate_vector.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/scalar_multiplication.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/scalar_relational.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/scalar_relational.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/spline.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/spline.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/std_based_type.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/std_based_type.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/string_cast.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/string_cast.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/transform.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/transform.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/transform2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/transform2.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/type_aligned.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/type_aligned.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/type_trait.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/type_trait.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/vec_swizzle.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/vector_angle.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/vector_angle.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/vector_query.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/vector_query.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/wrap.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/gtx/wrap.inl">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/integer.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat2x2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat2x3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat2x4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat3x2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat3x3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat3x4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat4x2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat4x3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/mat4x4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/matrix.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/packing.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/common.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/exponential.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/geometric.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/integer.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/matrix.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/packing.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/platform.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/trigonometric.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/simd/vector_relational.h">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/trigonometric.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/vec2.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/vec3.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/vec4.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/vector_relational.hpp">
+			<Option target="glm_dummy"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/imconfig.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/imgui_demo.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/imgui_internal.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb/stb.c">
+			<Option target="stb"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb/stb.h">
+			<Option target="stb"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/application.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/application.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/cgra/cgra_gui.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/cgra/cgra_gui.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/cgra/cgra_shader.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/cgra/cgra_shader.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/main.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/opengl.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/camera.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/camera.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/light.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/light.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/material.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/material.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/path_tracer.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/path_tracer.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/ray.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/scene.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/scene.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/scene_object.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/scene_object.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/shape.cpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/shape.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/texture.hpp">
+			<Option target="a4"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/cmake/CGRAFunctions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glfw/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\ext\glfw\docs\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glew-1.10.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glew-1.10.0\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\stb\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\imgui\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/ext/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glm\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/cgra/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\cgra\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/src/scene/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\scene\"/>
+		</Unit>
+		<Unit filename="/Users/gray/Documents/UNI/CGRA 251/3D_Raytracing/res/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
