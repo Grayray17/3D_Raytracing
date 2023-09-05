@@ -2,14 +2,13 @@
 <h1>3D Ray Tracing</h1>
 <p>
 <h2>Description</h2>
-This was a program for my computer graphics course CGRA251. In this assignment I covered how ray tracing works and how different materials and lighting react to it.
-This project show cases ray tacing in different enviroments from open spaces to small spaces with relfective materials.
+Assignment 2 for CGRA251. Implementing ray tracing with different materials and lighting components.
 
 <h4>What I Learnt</h4>
-This project taught me about what ray tracing is and how it works reflecting rays off materials recursively.
+In this assignment I learned about whatray tracing is and how it works reflecting rays off materials recursively.
 </p>
 
-<h2>Showcase</h2>
+<h2>Results</h2>
 <h3>Simple Test</h3>
 <img src="https://user-images.githubusercontent.com/43081670/220806558-6a867564-50d5-47ef-b93e-d03422a04adc.png" width="510"/>
 
